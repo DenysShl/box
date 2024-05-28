@@ -1,3 +1,3 @@
-spring:
-  application:
-    name: pastebox
+app-props:
+  host: http://pastebox.com.ua
+  public_list_size: 10
