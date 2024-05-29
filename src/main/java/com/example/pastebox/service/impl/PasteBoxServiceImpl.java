@@ -29,8 +29,7 @@ public class PasteBoxServiceImpl implements PasteBoxService {
 
     @Override
     public PasteBoxResponse getByHash(String hash) {
-        PasteBoxResponse dto = boxMapper.toDto(pasteBoxRepository.getByHash(hash));
-        return dto;
+        return boxMapper.toDto(pasteBoxRepository.getByHash(hash));
     }
 
     @Override
